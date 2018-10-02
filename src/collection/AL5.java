@@ -19,7 +19,7 @@ public class AL5 {
 		for(/*Object*/String str:list) {
 			System.out.println(str);
 		}
-		Collections.sort(list);
+		Collections.sort(list);//소트가 되는건 기본자료형뿐임 사용자 정의 클래스는 솔트가 안됨.
 		System.out.println("+++++++++++++++++++++++++");
 		for(/*Object*/String str:list) {
 			System.out.println(str);
